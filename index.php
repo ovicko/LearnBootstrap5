@@ -13,6 +13,7 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
 
     <title>Learn Bootstrap5</title>
 </head>
@@ -59,11 +60,15 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
     </section>
 
     <section class="bg-primary text-light p-5" id="section2">
-    <div class="container">
-    <div class="d-md-flex justify-content-between align-items-center">
-    <h3 class="mb-3 mb-md-0">Sign Up For Our News Letter</h3>
-    </div>
-    </div>
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our News Letter</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+                    <button class="btn btn-dark btn-lg" type="button" id="button-subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
     </section>
 
 
