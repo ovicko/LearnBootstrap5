@@ -42,7 +42,7 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
             </div>
         </div>
     </nav>
-    <section class="bg-dark text-light p-5 text-center text-sm-start" id="section1">
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="section1">
         <div class="container">
             <div class="d-sm-flex aligh-items-center justify-content-betweens">
                 <div>
