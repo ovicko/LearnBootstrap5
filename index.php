@@ -58,6 +58,14 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
 
     </section>
 
+    <section class="bg-primary text-light p-5" id="section2">
+    <div class="container">
+    <div class="d-md-flex justify-content-between align-items-center">
+    <h3 class="mb-3 mb-md-0">Sign Up For Our News Letter</h3>
+    </div>
+    </div>
+    </section>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
