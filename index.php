@@ -44,7 +44,7 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
     </nav>
     <section class="bg-dark text-light p-5 text-center" id="section1">
         <div class="container">
-            <div class="d-flex">
+            <div class="d-sm-flex">
                 <div>
                     <h1>Learn Bootstrap5</h1>
                 </div>
