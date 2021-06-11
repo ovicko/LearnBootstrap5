@@ -1,3 +1,8 @@
+<?php
+
+$showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-website/7656406f5e7b5cb1ac5879df8fd93f1182e215bf/img/showcase.svg";
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -37,7 +42,18 @@
             </div>
         </div>
     </nav>
-    <h1>Learn Bootstrap5</h1>
+    <section class="bg-dark text-light p-5 text-center" id="section1">
+        <div class="container">
+            <div>
+                <div>
+                    <h1>Learn Bootstrap5</h1>
+                </div>
+                <img src="<?= $showcase; ?>">
+            </div>
+        </div>
+
+    </section>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
