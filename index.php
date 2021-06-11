@@ -42,11 +42,15 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
             </div>
         </div>
     </nav>
-    <section class="bg-dark text-light p-5 text-center" id="section1">
+    <section class="bg-dark text-light p-5 text-center text-sm-start" id="section1">
         <div class="container">
             <div class="d-sm-flex">
                 <div>
-                    <h1>Learn Bootstrap5</h1>
+                    <h1>Learn to be <span class="text-warning">Great Developer</span></h1>
+                    <p class="lead">Navbars are responsive by default, but you can easily modify
+                        them to change that. Responsive behavior depends on our Collapse JavaScript plugin.</p>
+                    <button type="button" class="btn btn-primary btn-lg">Enroll Now!</button>
+
                 </div>
                 <img class="img-fluid w-50" src="<?= $showcase; ?>">
             </div>
