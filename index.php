@@ -47,12 +47,12 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
             <div class="d-sm-flex">
                 <div>
                     <h1>Learn to be <span class="text-warning">Great Developer</span></h1>
-                    <p class="lead">Navbars are responsive by default, but you can easily modify
+                    <p class="lead my-4">Navbars are responsive by default, but you can easily modify
                         them to change that. Responsive behavior depends on our Collapse JavaScript plugin.</p>
                     <button type="button" class="btn btn-primary btn-lg">Enroll Now!</button>
 
                 </div>
-                <img class="img-fluid w-50" src="<?= $showcase; ?>">
+                <img class="img-fluid w-50 d-none d-sm-block" src="<?= $showcase; ?>">
             </div>
         </div>
 
