@@ -44,11 +44,11 @@ $showcase = "https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-w
     </nav>
     <section class="bg-dark text-light p-5 text-center" id="section1">
         <div class="container">
-            <div>
+            <div class="d-flex">
                 <div>
                     <h1>Learn Bootstrap5</h1>
                 </div>
-                <img src="<?= $showcase; ?>">
+                <img class="img-fluid w-50" src="<?= $showcase; ?>">
             </div>
         </div>
 
